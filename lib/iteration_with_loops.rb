@@ -9,8 +9,9 @@ def find_min_in_nested_arrays(src)
         min = src[row_count][column_count]
       end
       column_count += 1
-      array_of_mins.push(min)
+      
     end
+    
     row_count += 1
   end
 end
